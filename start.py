@@ -11,8 +11,7 @@ import pyqtgraph as pg
 				
 				
 DELAY_TIMEOT = 20	#delay between reading frames in live mode in ms
-		
-		
+				
 class CLTimer(QTimer):
 	def __init__(self,t_slot):
 		super(CLTimer, self).__init__()
